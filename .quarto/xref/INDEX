@@ -7,5 +7,14 @@
   },
   "post_template.qmd": {
     "post_template.html": "7c8bfb15"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "00304beb"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "3762bbc9"
+  },
+  "posts/template/index.qmd": {
+    "index.html": "fa5d9f03"
   }
 }
