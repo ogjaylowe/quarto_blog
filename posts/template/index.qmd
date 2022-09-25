@@ -10,6 +10,8 @@ format:
 jupyter: python3
 ---
 
+Template plot containing code blocks, markdown features, and plots.
+
 ## Polar Axis
 
 For a demonstration of a line plot on a polar axis, see @fig-polar.

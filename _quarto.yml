@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "temp"
+  title: "The ogjaylowe blog"
   navbar:
     right:
       - about.qmd
@@ -13,7 +13,7 @@ website:
 format:
   html:
     theme: 
-      light: minty
+      light: journal
       dark: slate
     css: styles.css
 
