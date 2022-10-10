@@ -1,0 +1,79 @@
+---
+title: "The Sovereign Tech Dad"
+author: "Jay Lowe"
+date: "2022-10-08"
+categories: [fatherhood]
+image: "image.jpg"
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+##### Foreword
+
+> Learn why this blog exists, how to get value from it, and what it means to be a sovereign tech dad.
+
+# Why this blog exists
+
+The ogjaylowe blog aims to accomplish the following:
+
+1. empower readers to become better dads and developers
+2. showcase the knowledge I'm actively learning to become an industry leader in emerging ML spaces
+3. model strong fatherhood behaviors and actions for other tech dads
+4. demonstrate the importance of physical and spiritual health
+5. generate additional revenue streams for myself and others
+
+I'm honest and transparent about these goals because if you vibe with them and get value from what I'm writing about--then we can go far together.
+
+My posts tend to be short and direct because the world needs more content that gets you where you want to be.
+
+## How to get value
+
+The five goals listed above map into five actionable categories:
+
+1. take action on the `fatherhood` and `developer` actions immediately in your day-to-day living (each article will include examples on how to do this)
+2. relate my summaries of technologies and the projects I'm building to your own working experience
+3. challenge me on my fatherhood beliefs if you disagree, and if you find your own beliefs challenged--think deeply about that
+4. experiment with health changes to a rational degree (we have different bodies, be aware)
+5. learn from, then emulate, the results of my content creation and marketing strategies
+
+**For dads:**
+
+Success and life fulfillment come as a package. You need to have it all!
+
+If for example, you don't agree with the importance of having great physical and spirtual health, then how will your children be healthy?
+
+You know best for your family. 
+
+Don't trust homeschooling only because I do it and don't put your kid into a public school because you don't know better. Have an intent behind your action.
+
+**For everybody else:**
+
+The fatherhood components to my writing will not always be present and will be designated with a `fatherhood` tag for those who do not benefit from dad-related content. 
+
+Maybe you have a father present in your life, such as your dad or a relative/friend with children, in which case you can help them out. 
+
+This blog got started because my wife shares lots of relevant dad content with me and I wanted to share my thoughts and beliefs as they develop. Writing solidifes concepts!
+
+If you only benefit from ML developer content--awesome! Enjoy the content, I will post a lot of it.
+
+## Why "Sovereign" Tech Dad
+
+We live in an era of constant attention-seeking products and government welfare states. To state the obvious logic, if you don't have independence from these systems--you depend on them.
+
+Independence promotes you to take meaningful risks. Get enough of it and your behavior will change to emphasize self-ownership and rational thought grounded in deterministic goals (goodbye fatalists 👋) instead of consumption as a solution.
+
+Ideally, you should recognize to some degree the importance of globally integrated economies. What happens in China or Europe impacts North America and vice-versa.
+
+Use emerging digital solutions to put yourself into a location-independent position. You should live and work because you love it there and you get good tax benefits--not because you can't feed your family if you move 40 miles.
+
+I want you to benefit from changes on the global scale. Nationalism only works when your side wins, so don't pit yourself against the rally when you could instead gain from it.
+
+## Final thoughts and a call to action
+
+Pick the parts of the blog relevant to you. 
+
+Build valuable products, learn everyday, treat your family well, be healthy, and make money in a way that leads to independence.
+
+I want to hear about your success! DM me or tweet. I would love nothing more then to show case the work and achievements of others!
