@@ -16,5 +16,11 @@
   },
   "posts/template/index.qmd": {
     "index.html": "fa5d9f03"
+  },
+  "posts/The Sovereign Tech Dad/index.qmd": {
+    "index.html": "753e3b89"
+  },
+  "ideas.md": {
+    "ideas.html": "7bb1e8a0"
   }
 }
