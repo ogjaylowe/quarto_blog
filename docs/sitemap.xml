@@ -6,14 +6,18 @@
   </url>
   <url>
     <loc>https://example.com/index.html</loc>
-    <lastmod>2022-10-20T22:01:10.653Z</lastmod>
+    <lastmod>2022-10-20T22:04:15.311Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html</loc>
-    <lastmod>2022-10-20T22:01:11.452Z</lastmod>
+    <lastmod>2022-10-20T22:04:21.520Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/ideas.html</loc>
     <lastmod>2022-10-20T22:01:10.219Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/about.html</loc>
+    <lastmod>2022-10-20T22:04:13.063Z</lastmod>
   </url>
 </urlset>
