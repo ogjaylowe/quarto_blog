@@ -22,5 +22,14 @@
   },
   "ideas.md": {
     "ideas.html": "7bb1e8a0"
+  },
+  "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.qmd": {
+    "index.html": "365a57fd"
+  },
+  "posts/Bandit_1/index.qmd": {
+    "index.html": "b1e218ac"
+  },
+  "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.qmd": {
+    "index.html": "f091b5a6"
   }
 }

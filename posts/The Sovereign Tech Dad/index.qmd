@@ -10,7 +10,7 @@ format:
 jupyter: python3
 ---
 
-##### Foreword
+##### Article Summary
 
 > Learn why this blog exists, how to get value from it, and what it means to be a sovereign tech dad.
 

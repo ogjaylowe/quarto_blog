@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "fatherhood\n\n\n\n\n\n\n\n\n\n\n\nOct 8, 2022\n\n\nJay Lowe\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntag1\n\n\ntag2\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2022\n\n\nJay Lowe\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "RL\n\n\nCode\n\n\nBandit\n\n\n\n\n\n\n\n\n\n\n\nJul 8, 2023\n\n\nJay Lowe\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nRL\n\n\nBeginner\n\n\n\n\n\n\n\n\n\n\n\nOct 8, 2022\n\n\nJay Lowe\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nRL\n\n\nCode\n\n\nBandit\n\n\n\n\n\n\n\n\n\n\n\nOct 8, 2022\n\n\nJay Lowe\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nfatherhood\n\n\n\n\n\n\n\n\n\n\n\nOct 8, 2022\n\n\nJay Lowe\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntag1\n\n\ntag2\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2022\n\n\nJay Lowe\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -117,5 +117,194 @@
     "title": "The ogjaylowe blog",
     "section": "potential partners to recpricate with",
     "text": "potential partners to recpricate with\n\ntech products such as:\n\nNotion\nGrammarly\nQuarto\nGithub pages\n\nthat schooling website and home schooling communities\nAjax and the wider health community\nthe soverign community\nthe success and achievement of others in my community!"
+  },
+  {
+    "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html",
+    "href": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html",
+    "title": "Learn RL Fundamentals and Vocab in Five Minutes",
+    "section": "",
+    "text": "Learn all the reinforcement learning (RF) fundamental concepts and terminalogy such as reward and value function in five minutes.\n\nTo help us better understand RL, I will be comparing each jargon filled statement with a simple analogy comparing an RL algorithm to that of a three year old.\nMy daughter was three at the time of this writing and it was fun explaining RL concepts to my non-technical wife as the kid jumps around and yells, so hopefully it helps you as well."
+  },
+  {
+    "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#meet-the-agent",
+    "href": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#meet-the-agent",
+    "title": "Learn RL Fundamentals and Vocab in Five Minutes",
+    "section": "Meet the agent",
+    "text": "Meet the agent\nTODO - meet agent Rae?\nMy three year old agent Rae has a bedroom containing various features including toys, books, a bed, and much more.\nInside her bedroom environment, she can perform many actions such as playing with her toys, reading the books, jumping or sleeping in the bed, etc.\nDepending on if she wants to play or go to bed–the goal set for her in this bedroom (dictated by time of day and me the father) will determine which actions lead to best fufilling that goal."
+  },
+  {
+    "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#how-to-get-value",
+    "href": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#how-to-get-value",
+    "title": "Learn RL Fundamentals and Vocab in Five Minutes",
+    "section": "How to get value",
+    "text": "How to get value\nThe five goals listed above map into five actionable categories:\n\ntake action on the fatherhood and developer actions immediately in your day-to-day living (each article will include examples on how to do this)\nrelate my summaries of technologies and the projects I’m building to your own working experience\nchallenge me on my fatherhood beliefs if you disagree, and if you find your own beliefs challenged–think deeply about that\nexperiment with health changes to a rational degree (we have different bodies, be aware)\nlearn from, then emulate, the results of my content creation and marketing strategies\n\nFor dads:\nSuccess and life fulfillment come as a package. You need to have it all!\nIf for example, you don’t agree with the importance of having great physical and spirtual health, then how will your children be healthy?\nYou know best for your family.\nDon’t trust homeschooling only because I do it and don’t put your kid into a public school because you don’t know better. Have an intent behind your action.\nFor everybody else:\nThe fatherhood components to my writing will not always be present and will be designated with a fatherhood tag for those who do not benefit from dad-related content.\nMaybe you have a father present in your life, such as your dad or a relative/friend with children, in which case you can help them out.\nThis blog got started because my wife shares lots of relevant dad content with me and I wanted to share my thoughts and beliefs as they develop. Writing solidifes concepts!\nIf you only benefit from ML developer content–awesome! Enjoy the content, I will post a lot of it."
+  },
+  {
+    "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#why-sovereign-tech-dad",
+    "href": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#why-sovereign-tech-dad",
+    "title": "Learn RL Fundamentals and Vocab in Five Minutes",
+    "section": "Why “Sovereign” Tech Dad",
+    "text": "Why “Sovereign” Tech Dad\nWe live in an era of constant attention-seeking products and government welfare states. To state the obvious logic, if you don’t have independence from these systems–you depend on them.\nIndependence promotes you to take meaningful risks. Get enough of it and your behavior will change to emphasize self-ownership and rational thought grounded in deterministic goals (goodbye fatalists 👋) instead of consumption as a solution.\nIdeally, you should recognize to some degree the importance of globally integrated economies. What happens in China or Europe impacts North America and vice-versa.\nUse emerging digital solutions to put yourself into a location-independent position. You should live and work because you love it there and you get good tax benefits–not because you can’t feed your family if you move 40 miles.\nI want you to benefit from changes on the global scale. Nationalism only works when your side wins, so don’t pit yourself against the rally when you could instead gain from it."
+  },
+  {
+    "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#final-thoughts-and-a-call-to-action",
+    "href": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#final-thoughts-and-a-call-to-action",
+    "title": "Learn RL Fundamentals and Vocab in Five Minutes",
+    "section": "Final thoughts and a call to action",
+    "text": "Final thoughts and a call to action\nPick the parts of the blog relevant to you.\nBuild valuable products, learn everyday, treat your family well, be healthy, and make money in a way that leads to independence.\nI want to hear about your success! DM me or tweet. I would love nothing more then to show case the work and achievements of others!"
+  },
+  {
+    "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#what-does-reinforcement-learning-do",
+    "href": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#what-does-reinforcement-learning-do",
+    "title": "Learn RL Fundamentals and Vocab in Five Minutes",
+    "section": "What does reinforcement learning do?",
+    "text": "What does reinforcement learning do?\nGiven an environment and a set of actions that can be performed in that environment, an RL algorithm learns how to maximize rewards within the context of a given goal.\nHearby, the RL algorithm performing actions shall be known as the agent.\nTODO - meet agent Rae?\nMy three year old agent Rae has a bedroom containing various features including toys, books, a bed, and much more.\nInside her bedroom environment, she can perform many actions such as playing with her toys, reading the books, jumping or sleeping in the bed, etc.\nDepending on if she wants to play or go to bed–the goal set for her in this bedroom (dictated by time of day and me the father) will determine which actions lead to best fufilling that goal."
+  },
+  {
+    "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#what-can-you-solve-with-reinforcement-learning",
+    "href": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html#what-can-you-solve-with-reinforcement-learning",
+    "title": "Learn RL Fundamentals and Vocab in Five Minutes",
+    "section": "What can you solve with reinforcement learning?",
+    "text": "What can you solve with reinforcement learning?\nAn agent can be used to solve problems related to…"
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html",
+    "href": "posts/Bandit_1/index.html",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "",
+    "text": "evaluation methods explained"
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#why-bandits",
+    "href": "posts/Bandit_1/index.html#why-bandits",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Why bandits?",
+    "text": "Why bandits?\nRL agents use evaluation methods to dictate what actions it takes, instead of instruction from a combination of loss/reward/etc. functions.\nGuiding an RL agent through evaluative feedback will help it understand which actions provide the most reward but doesn’t specify which action provides the best or worst outcomes.\nBandits allow us to create simple test beds for training RL agents in. An RL agent must learn to maximize total reward when interacting with the bandit given a number of action selections.\nIf your bandit has three arms and the RL agent can choose to pull one of those three levers 1000 times–which combination of lever pulls will lead to the highest possible reward? An effective RL agent should learn the optimal sequence of when and which levers to pull."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#providing-bandit-actions-a-value",
+    "href": "posts/Bandit_1/index.html#providing-bandit-actions-a-value",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Providing bandit actions a value",
+    "text": "Providing bandit actions a value\nIn life and in RL, if we had a perfect understanding of the short and long term value tied to an action we would be able to exploit that to our advantage.\nLet’s create some perfect ground truth values for a three armed bandit.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# assign a random starting seed value\nnp.random.seed(5)\n\n# basis for generating the reward ground truths\nmean = 0          # also known as mu\nstandard_deviation = 1      # also known as sigma\narms = 3\n\n# bandit values\naction_range = np.arange(0, arms)\nreward_truths = np.random.normal(mean, standard_deviation, (arms))\ntotal_actions_allowed = 1000\n\n# plot initial ground truth values\nplt.plot(action_range, reward_truths, 'o', color='black')\n\n# plot details\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values')\nplt.show()\n\n\n\n\nUnfortunately, we don’t have perfect knowledge so we as agents must do our best to estimate the reward value of an action before we take it.\nWe can’t provide a static ground truth value for a bandit arm or else a greedy RL agent will always be able to quickly solve the problem in a way that doesn’t replicate real world situations.\n\nA better action-value method\nA good bandit arm should be assigned a set reward value to act as the ground truth, a range of possible reward values to pull from anchored on the ground truth, and the resulting reward should be randomly sampled from that range when the arm gets pulled.\nI like to think of this as applying a standard deviation error bar to your starting point.\n\n# apply a standard deviation error bar to the ground truth values\nplt.errorbar(action_range, reward_truths, np.ones(arms), fmt='o')\n\n# plot details\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values with Deviation Range')\nplt.show()\n\nplt.show()\n\n\n\n\nIn implementation, the agent will use a properly sampled distribution of actions and not a deviation bar.\nLet’s update the the visualization of each bandit arm with 1000 sampled data points to better capture these good practices.\n\n# for each arm's reward truth, generate distribution between 1 and total_actions_allowed\nreward_ranges = np.array([np.random.normal(true_reward,1,total_actions_allowed) for true_reward in reward_truths])\n\n# plot scatter points representing the sampled value range centered on ground truth value\nfor i in action_range:\n    plt.scatter(np.full((total_actions_allowed),i),reward_ranges[i])\n\n# plot ground truth ranges\nplt.plot(action_range, reward_truths,'o', color='black')\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values with Sampling Applied')\nplt.show()\n\n\n\n\nFor each additional bandit arm we add, the same process will occur. Check out a 15 arm bandit, with twice the standard deviation, that as 2000 total action “time steps”.\n\n# updated bandit values\narms = 15\nstandard_deviation = 2\naction_range = np.arange(0, arms)\nreward_truths = np.random.normal(mean, standard_deviation, (arms))\ntotal_actions_allowed = 2000\n\n# for each arm's reward truth, generate distribution between 1 and total_actions_allowed\nreward_ranges = np.array([np.random.normal(true_reward,1,total_actions_allowed) for true_reward in reward_truths])\n\n# plot scatter points representing the sampled value range centered on ground truth value\nfor i in action_range:\n    plt.scatter(np.full((total_actions_allowed),i),reward_ranges[i])\n\n# plot ground truth ranges\nplt.plot(action_range, reward_truths,'o', color='black')\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values with Sampling Applied')\nplt.show()\n\n\n\n\nThe wider range of values to sample from and increased number of arms increase the complexity, thereby making it harder for the agent to find the optimal value function."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#meet-the-agent",
+    "href": "posts/Bandit_1/index.html#meet-the-agent",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Meet the agent",
+    "text": "Meet the agent\nTODO - meet agent Rae?\nMy three year old agent Rae has a bedroom containing various features including toys, books, a bed, and much more.\nInside her bedroom environment, she can perform many actions such as playing with her toys, reading the books, jumping or sleeping in the bed, etc.\nDepending on if she wants to play or go to sleep–the goal set for her in this bedroom will determine which actions lead high rewards.\nFor example, if whe wants to go to sleep then climbing into bed and getting tucked into the sheets would produce high reward while getting jacked up on blocks falling would produce low reward (as they rile her up)."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#what-can-you-solve-with-reinforcement-learning",
+    "href": "posts/Bandit_1/index.html#what-can-you-solve-with-reinforcement-learning",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "What can you solve with reinforcement learning?",
+    "text": "What can you solve with reinforcement learning?\nProblem statements with a well defined environment and bounded set of actions make can typically be solved using RL methods.\nSome examples of bounded problem statements include: - Robotics: robot appendanges typically have a limited range of motion and must move or interact with physical objects in a finite environment (typically dictated by their sensors) - Games: a game board has a defined state at any given point with a limited set of actions determined by the rules of the game - Cooking: given a well defined set of taste preferences as a goal, an RL agent can combine available ingredients with methods of cooking available to it - Stock market predictions: a market has a defined state at a given point of time and a limited number of ways to interact with it\nEssentially, anything that has a limited set of actions in a defined environment could be jigged into a RL problem if progress towards a goal in that context can be measured."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#how-an-rl-agent-knows-which-actions-to-take",
+    "href": "posts/Bandit_1/index.html#how-an-rl-agent-knows-which-actions-to-take",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "How an RL agent knows which actions to take",
+    "text": "How an RL agent knows which actions to take\nAn environment can be used in many different ways depending on the goal an agent has at the time (imagine all the ways you can use your kitchent).\nThe policy determines which actions lead to the best outcome by mapping all actions possible, given the state of the environment, to a known reward value.\nFor example, an agent such as Rae operating in her bedroom will have seperate policies when playing vs going to sleep. Her playtime policy will put rewards on actions related to her toys while her sleep policy will place a reward on actions that calm her down."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#actions-have-results",
+    "href": "posts/Bandit_1/index.html#actions-have-results",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Actions have results",
+    "text": "Actions have results\nAfter taking an action in its environment, the agent will measure how much progress it made towards its goal.\nThe amount of progess made takes the form of a singular number known as the reward signal. RL agents exist to find the path to maximum reward.\nRL agents will sometimes use the resulting reward to alter the policy mappings.\nIf Rae finds that playing with a toy in a particular way was especially fun when using her playtime policy, she may value that action more next she plays."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#rewards-have-both-an-immedate-and-long-term-payoff",
+    "href": "posts/Bandit_1/index.html#rewards-have-both-an-immedate-and-long-term-payoff",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Rewards have both an immedate and long term payoff",
+    "text": "Rewards have both an immedate and long term payoff\nHow do RL agents handle differed rewards? If for example I offered you $1,000 today or $10,000 dollars tomorrow–which one leads to the most long term reward?\nThe value function bakes in discounted future rewards in conjunction with the immedate rewards to better represent which actions lead to the best long term outcome.\nRL agents will always attempt to find the optimal policy that leads to optimal rewards.\nComing back to Rae’s playtime policy, taking the time to slowly build up a large tower of blocks might not be that fun until the last piece gets put into place–upon which a massive reward spike hits and she has the most fun possible.\nDimming the lights and reading stories during her sleeping policy might not immedately lead to sleep, as opposed to forcing her into bed, but they put her into a tired state that greatly increases the chances of the sleep action occuring.\nAn effective value function represents effective estimation of value–the single most important component to an RL agent–as this leads to accurate mappings of actions to reward."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#planning-for-future-actions",
+    "href": "posts/Bandit_1/index.html#planning-for-future-actions",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Planning for future actions",
+    "text": "Planning for future actions\nSometimes an RL agent will have access to an environment model that estimates the results of an action.\nA model may not always be available but can be particularly useful for games, or simple physics environments, in which clear causation exists.\nWhen I’m teaching Rae about physical phenomona such as the water cycle, I will often employ a model that includes a temperature scale and the states of water for experimentation."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#the-difference-between-reinforcment-learning-supervised-learning-and-unsupervised-learning",
+    "href": "posts/Bandit_1/index.html#the-difference-between-reinforcment-learning-supervised-learning-and-unsupervised-learning",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "The difference between reinforcment learning, supervised learning, and unsupervised learning",
+    "text": "The difference between reinforcment learning, supervised learning, and unsupervised learning\nSupervised learning typically means we supply the algorithm with some form of training dataset that we have vetted as correct. For example, a computer vision model will be trained on pictures with human generated lables specifying what each object in the picture represents.\nUnsupervised learning removes the human verified data and substitues it with a method to find hidden correlations and trends to create machine generated training data.\nUnlike these traditional machine learning (ML) algorithms, RL algorithms do not utilize a training datset. Instead they attempt to maximize reward through repeated exploration and exploitation.\n\nRL can be combined with other ML techniques\nRL algorithms can utilize techniques found in un/supervised learning, and can also benefit from the introduction of sub-problems, but fundamentally does not require them.\nI think of RL algorithms as a way to imitate the learning processes used by humans, and other animals, and often mimics known nuerological phenomoman observed in the biology fields.\n\nDeep reinforcment learning explained\nUse a deep neural network for your policy and you have deep RL."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#how-to-get-value",
+    "href": "posts/Bandit_1/index.html#how-to-get-value",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "How to get value",
+    "text": "How to get value\nThe five goals listed above map into five actionable categories:\n\ntake action on the fatherhood and developer actions immediately in your day-to-day living (each article will include examples on how to do this)\nrelate my summaries of technologies and the projects I’m building to your own working experience\nchallenge me on my fatherhood beliefs if you disagree, and if you find your own beliefs challenged–think deeply about that\nexperiment with health changes to a rational degree (we have different bodies, be aware)\nlearn from, then emulate, the results of my content creation and marketing strategies\n\nFor dads:\nSuccess and life fulfillment come as a package. You need to have it all!\nIf for example, you don’t agree with the importance of having great physical and spirtual health, then how will your children be healthy?\nYou know best for your family.\nDon’t trust homeschooling only because I do it and don’t put your kid into a public school because you don’t know better. Have an intent behind your action.\nFor everybody else:\nThe fatherhood components to my writing will not always be present and will be designated with a fatherhood tag for those who do not benefit from dad-related content.\nMaybe you have a father present in your life, such as your dad or a relative/friend with children, in which case you can help them out.\nThis blog got started because my wife shares lots of relevant dad content with me and I wanted to share my thoughts and beliefs as they develop. Writing solidifes concepts!\nIf you only benefit from ML developer content–awesome! Enjoy the content, I will post a lot of it."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#why-sovereign-tech-dad",
+    "href": "posts/Bandit_1/index.html#why-sovereign-tech-dad",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Why “Sovereign” Tech Dad",
+    "text": "Why “Sovereign” Tech Dad\nWe live in an era of constant attention-seeking products and government welfare states. To state the obvious logic, if you don’t have independence from these systems–you depend on them.\nIndependence promotes you to take meaningful risks. Get enough of it and your behavior will change to emphasize self-ownership and rational thought grounded in deterministic goals (goodbye fatalists 👋) instead of consumption as a solution.\nIdeally, you should recognize to some degree the importance of globally integrated economies. What happens in China or Europe impacts North America and vice-versa.\nUse emerging digital solutions to put yourself into a location-independent position. You should live and work because you love it there and you get good tax benefits–not because you can’t feed your family if you move 40 miles.\nI want you to benefit from changes on the global scale. Nationalism only works when your side wins, so don’t pit yourself against the rally when you could instead gain from it."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#final-thoughts-and-a-call-to-action",
+    "href": "posts/Bandit_1/index.html#final-thoughts-and-a-call-to-action",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Final thoughts and a call to action",
+    "text": "Final thoughts and a call to action\nPick the parts of the blog relevant to you.\nBuild valuable products, learn everyday, treat your family well, be healthy, and make money in a way that leads to independence.\nI want to hear about your success! DM me or tweet. I would love nothing more then to show case the work and achievements of others!"
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#defining-a-bandit",
+    "href": "posts/Bandit_1/index.html#defining-a-bandit",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Defining a bandit",
+    "text": "Defining a bandit\nA bandit represents an environment, a set of rewards, and a set of actions.\nFor example, a one armed bandit has one possible action (one “arm” or lever) in its environment and pulling that arm generates one set of rewards–typically as a randomly generated number between two set intervals such as 0 and 1."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#greedy-and-nongreedy-actions",
+    "href": "posts/Bandit_1/index.html#greedy-and-nongreedy-actions",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Greedy and nongreedy actions",
+    "text": "Greedy and nongreedy actions\nAn agent will take a greedy action if it has been told to exploit its environment and choose the highest reward possible.\nIt will choose the nongreedy action during exploration in an attempt to better estimate the reward value an action will provide.\nOne should exploit once the optimal policy and value functions have been determined, as that will lead to maximum rewards.\nIdentifying the right ratio of exploitaton to exploration and the exploration decay rate plays a critical role in a succesfully converging an RL agent to optimal performance."
+  },
+  {
+    "objectID": "posts/Bandit_1/index.html#meet-ε",
+    "href": "posts/Bandit_1/index.html#meet-ε",
+    "title": "Creating and Solving Simple N-Arm Bandits with RL Agents",
+    "section": "Meet ε",
+    "text": "Meet ε\nThe ratio of when the agent chooses to exploit or explore commonly gets denoted with the greek notation of epsilon ε.\nIn general, exploration should be occur drastically less then exploit, as the agent should be focused on finding the maximum reward, so usually we set ε to equal to .1 or less.\n\nWhy exploration works\nIf you were to give an agent infinite resources and an ε value greater then zero, as it approaches the limit of infinity, it will exhaust all possible actions and thereby discover the ground truth values of a bandit.\nAgents do not have infinite resources but give them enough time and they will approach the limit close enough to accurately estimate the ground truth value to a certain acceptable degree."
+  },
+  {
+    "objectID": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html",
+    "href": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html",
+    "title": "Creating Simple N-Arm Bandits for RL Agents",
+    "section": "",
+    "text": "Learn how to create a simple N-armed bandit and train an RL agent to its optimal policy and value function."
+  },
+  {
+    "objectID": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html#defining-a-bandit",
+    "href": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html#defining-a-bandit",
+    "title": "Creating Simple N-Arm Bandits for RL Agents",
+    "section": "Defining a bandit",
+    "text": "Defining a bandit\nA bandit represents an environment, a set of rewards, and a set of actions.\nFor example, a one armed bandit has one possible action (one “arm” or lever) in its environment and pulling that arm generates one set of rewards–typically as a randomly generated number between two set intervals such as 0 and 1."
+  },
+  {
+    "objectID": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html#why-bandits",
+    "href": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html#why-bandits",
+    "title": "Creating Simple N-Arm Bandits for RL Agents",
+    "section": "Why bandits?",
+    "text": "Why bandits?\nRL agents use evaluation methods to dictate what actions it takes, instead of instruction from a combination of loss/reward/etc. functions.\nGuiding an RL agent through evaluative feedback will help it understand which actions provide the most reward but doesn’t specify which action provides the best or worst outcomes.\nBandits allow us to create simple test beds for training RL agents in. An RL agent must learn to maximize total reward when interacting with the bandit given a number of action selections.\nIf your bandit has three arms and the RL agent can choose to pull one of those three levers 1000 times–which combination of lever pulls will lead to the highest possible reward? An effective RL agent should learn the optimal sequence of when and which levers to pull."
+  },
+  {
+    "objectID": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html#providing-bandit-actions-a-value",
+    "href": "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html#providing-bandit-actions-a-value",
+    "title": "Creating Simple N-Arm Bandits for RL Agents",
+    "section": "Providing bandit actions a value",
+    "text": "Providing bandit actions a value\nIn life and in RL, if we had a perfect understanding of the short and long term value tied to an action we would be able to exploit that to our advantage.\nLet’s create some perfect ground truth values for a three armed bandit.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# assign a random starting seed value\nnp.random.seed(5)\n\n# basis for generating the reward ground truths\nmean = 0          # also known as mu\nstandard_deviation = 1      # also known as sigma\narms = 3\n\n# bandit values\naction_range = np.arange(0, arms)\nreward_truths = np.random.normal(mean, standard_deviation, (arms))\ntotal_actions_allowed = 1000\n\n# plot initial ground truth values\nplt.plot(action_range, reward_truths, 'o', color='black')\n\n# plot details\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values')\nplt.show()\n\n\n\n\nUnfortunately, we don’t have perfect knowledge so we as agents must do our best to estimate the reward value of an action before we take it.\nWe can’t provide a static ground truth value for a bandit arm or else a greedy RL agent will always be able to quickly solve the problem in a way that doesn’t replicate real world situations.\n\nA better action-value method\nA good bandit arm should be assigned a set reward value to act as the ground truth, a range of possible reward values to pull from anchored on the ground truth, and the resulting reward should be randomly sampled from that range when the arm gets pulled.\nI like to think of this as applying a standard deviation error bar to your starting point.\n\n# apply a standard deviation error bar to the ground truth values\nplt.errorbar(action_range, reward_truths, np.ones(arms), fmt='o')\n\n# plot details\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values with Deviation Range')\nplt.show()\n\nplt.show()\n\n\n\n\nIn implementation, the agent will use a properly sampled distribution of actions and not a deviation bar.\nLet’s update the the visualization of each bandit arm with 1000 sampled data points to better capture these good practices.\n\n# for each arm's reward truth, generate distribution between 1 and total_actions_allowed\nreward_ranges = np.array([np.random.normal(true_reward,1,total_actions_allowed) for true_reward in reward_truths])\n\n# plot scatter points representing the sampled value range centered on ground truth value\nfor i in action_range:\n    plt.scatter(np.full((total_actions_allowed),i),reward_ranges[i])\n\n# plot ground truth ranges\nplt.plot(action_range, reward_truths,'o', color='black')\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values with Sampling Applied')\nplt.show()\n\n\n\n\nFor each additional bandit arm we add, the same process will occur. Check out a 15 arm bandit, with twice the standard deviation, that as 2000 total action “time steps”.\n\n# updated bandit values\narms = 15\nstandard_deviation = 2\naction_range = np.arange(0, arms)\nreward_truths = np.random.normal(mean, standard_deviation, (arms))\ntotal_actions_allowed = 2000\n\n# for each arm's reward truth, generate distribution between 1 and total_actions_allowed\nreward_ranges = np.array([np.random.normal(true_reward,1,total_actions_allowed) for true_reward in reward_truths])\n\n# plot scatter points representing the sampled value range centered on ground truth value\nfor i in action_range:\n    plt.scatter(np.full((total_actions_allowed),i),reward_ranges[i])\n\n# plot ground truth ranges\nplt.plot(action_range, reward_truths,'o', color='black')\nplt.xlabel('Arm Number')\nplt.ylabel('Arm Value')\nplt.xticks(range(0,arms))\nplt.title('Initial Bandit Arm Ground Truth Values with Sampling Applied')\nplt.show()\n\n\n\n\nThe wider range of values to sample from and increased number of arms increase the complexity, thereby making it harder for the agent to find the optimal value function."
   }
 ]
