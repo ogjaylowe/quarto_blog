@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://example.com/posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html</loc>
-    <lastmod>2022-10-20T21:01:43.210Z</lastmod>
+    <lastmod>2022-10-20T22:01:09.879Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/index.html</loc>
-    <lastmod>2022-10-20T21:02:44.943Z</lastmod>
+    <lastmod>2022-10-20T22:01:10.653Z</lastmod>
   </url>
   <url>
     <loc>https://example.com/posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html</loc>
-    <lastmod>2022-10-20T21:53:56.779Z</lastmod>
+    <lastmod>2022-10-20T22:01:11.452Z</lastmod>
+  </url>
+  <url>
+    <loc>https://example.com/ideas.html</loc>
+    <lastmod>2022-10-20T22:01:10.219Z</lastmod>
   </url>
 </urlset>

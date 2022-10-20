@@ -72,51 +72,51 @@
   {
     "objectID": "ideas.html",
     "href": "ideas.html",
-    "title": "The ogjaylowe blog",
+    "title": "Jay Lowe's Blog",
     "section": "",
     "text": "achieve new rev streams\nshowcase knowledge and become an industry leader in ML / Fatherhood\nempower followers to become better dads and developers"
   },
   {
     "objectID": "ideas.html#tags",
     "href": "ideas.html#tags",
-    "title": "The ogjaylowe blog",
+    "title": "Jay Lowe's Blog",
     "section": "Tags",
     "text": "Tags\n\nRant\nFatherhood\nSovereignty\nHow To\nTech Stack X\nEssay / Oped\nBook / Art / Poem Review"
   },
   {
     "objectID": "ideas.html#series-ideas",
     "href": "ideas.html#series-ideas",
-    "title": "The ogjaylowe blog",
+    "title": "Jay Lowe's Blog",
     "section": "Series Ideas",
     "text": "Series Ideas\n\n“How To” focused on doing what I’m learning. Typically in two parts, (1) being a learning series on my blog about the apriori concepts following other works and (2) being a cross post to Roboflow in which I put the learning into action.\n\nEX: recreating the monte carlo portion of a RL learning with CV included\nEX: how to create an openAI gym env and then making one with CV\noften includes a series in which problem statements get resolved further in each post\n\nEX: start with problem statement 1, the work done to validate that, and a link to the next post which will further refine the problem statement and a hypothesis to what that will be (in next post respond to hypothesis)\nEX: could also be a hypothesis statement on the future of events if an oped type piece\n\ninclude notes and remarks on interview prep and how readers could use these learned lessons from a cut tech vet\n\nProblems I would like to see solved by others?\nGeneral lessons learned at certain milestones\n\nfather hood and homeschooling major milestones (birthdays, moves, “first of”-type events, pregnancy, etc)\ndeveloper milestones (PR, new initative, new roadmap, new framework learned, new tech adopted into a stack, etc.)\nblogging and social media milestones (X followers / email sign ups, Xth post, certain engagement with a post learnings, any real ship)\nfitness milestones (X% bodyfat or weight, new PB, practicing a new diet or excercise for a week such as HIIP or hydration tablets)\nresearch learnings (read X papers and grokked something important, made a new working prototype that helped me understand something like a Q agent better, thoughts on an emerging movement)\n\nChallenging society and my industry?"
   },
   {
     "objectID": "ideas.html#distribution-targets",
     "href": "ideas.html#distribution-targets",
-    "title": "The ogjaylowe blog",
+    "title": "Jay Lowe's Blog",
     "section": "Distribution targets",
     "text": "Distribution targets\n\nmy blog\nRoboflow blog\nhackernews and other outlets?"
   },
   {
     "objectID": "ideas.html#parenting-topics",
     "href": "ideas.html#parenting-topics",
-    "title": "The ogjaylowe blog",
+    "title": "Jay Lowe's Blog",
     "section": "Parenting Topics",
     "text": "Parenting Topics\n\nmusic (piano, electronic music)\nreading / writing (chalk board, making a website)\nprogramming (websites, ML interviews, SWE interviews)\npainting (watercolor)\ncooking (french, creol, foreign)\nsports (bjj, yoga, tennis, kids football)\noutdoor (hikes, camping)\nscience (temperature, water cycles, geology, space)\npersonal brand (watch the masterclass on personal brand and making videos)\nrandom (dogs, gardening)"
   },
   {
     "objectID": "ideas.html#marketing",
     "href": "ideas.html#marketing",
-    "title": "The ogjaylowe blog",
+    "title": "Jay Lowe's Blog",
     "section": "Marketing",
     "text": "Marketing\nIndustry: AI and SWE education Theme: the funny fit dad engineer that helps you get to where you need to be\nContent focused on breaking down how deep mind built what they did, then replicating it in my own projects with Roboflow\nHighly targeted niche (HTN) Demographic - Age = 25-40 - Gender = Male - Location = Tech hubs such as Bay Area - Interest = ML technology and career transitions\nCash angle? - Turn everything on camera into a rev stream. Clothing, software, hardware, OS, everything - parenting things can turn into rev streams as well"
   },
   {
     "objectID": "ideas.html#potential-partners-to-recpricate-with",
     "href": "ideas.html#potential-partners-to-recpricate-with",
-    "title": "The ogjaylowe blog",
+    "title": "Jay Lowe's Blog",
     "section": "potential partners to recpricate with",
-    "text": "potential partners to recpricate with\n\ntech products such as:\n\nNotion\nGrammarly\nQuarto\nGithub pages\n\nthat schooling website and home schooling communities\nAjax and the wider health community\nthe soverign community\nthe success and achievement of others in my community!"
+    "text": "potential partners to recpricate with\n\ntech products such as:\n\nNotion\nGrammarly\nQuarto\nGithub pages\n\nthat schooling website and home schooling communities\nAjax and the wider health community\nthe soverign community\nthe success and achievement of others in my community!\n\nblog creation notes: https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html#first-simple-changes"
   },
   {
     "objectID": "posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html",
