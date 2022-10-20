@@ -9,7 +9,7 @@
 <meta name="author" content="Jay Lowe">
 <meta name="dcterms.date" content="2022-10-08">
 
-<title>The ogjaylowe blog - Learn RL? Fundamentals and Vocab in Five Minutes</title>
+<title>Jay Lowe’s Blog (the ogjaylowe) - Learn RL Fundamentals and Vocab in Five Minutes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,6 +66,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Jay Lowe’s Blog (the ogjaylowe) - Learn RL Fundamentals and Vocab in Five Minutes">
+<meta name="twitter:description" content="To help us better understand RL, I will be pairing technical writing with a simple analogy comparing an RL algorithm to that of a three year old.">
+<meta name="twitter:image" content="https://example.com/posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/image.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -75,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">The ogjaylowe blog</span>
+    <span class="navbar-title">Jay Lowe’s Blog (the ogjaylowe)</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -147,70 +152,109 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<ul>
+<li><p>TODO: when to be greedy, exploitation vs exploration explained</p></li>
+<li><p>TODO: action value methods?</p></li>
+</ul>
 <section id="article-summary" class="level5">
 <h5 class="anchored" data-anchor-id="article-summary">Article Summary</h5>
 <blockquote class="blockquote">
 <p>Learn all the reinforcement learning (RF) fundamental concepts and terminalogy such as <code>reward</code> and <code>value function</code> in five minutes.</p>
 </blockquote>
-<p>To help us better understand RL, I will be comparing each jargon filled statement with a simple analogy comparing an RL algorithm to that of a three year old.</p>
+<p>To help us better understand RL, I will be pairing technical writing with a simple analogy comparing an RL algorithm to that of a three year old.</p>
 <p>My daughter was three at the time of this writing and it was fun explaining RL concepts to my non-technical wife as the kid jumps around and yells, so hopefully it helps you as well.</p>
 </section>
 <section id="core-concepts" class="level1">
 <h1>Core concepts</h1>
-<p>Given an <code>environment</code> and a set of <code>actions</code> that can be performed in that environment, an RL algorithm learns how to maximize rewards within the context of a given <code>goal</code>.</p>
+<p>Given an <code>environment</code> and a set of <code>actions</code> that can be performed in that environment, an RL algorithm learns how to maximize <code>reward</code> within the context of a measurable <code>goal</code>.</p>
 <p>Hearby, the RL algorithm performing actions shall be known as the <code>agent</code>.</p>
 <section id="meet-the-agent" class="level2">
 <h2 class="anchored" data-anchor-id="meet-the-agent">Meet the agent</h2>
 <p>TODO - meet agent Rae?</p>
-<p>My three year old agent Rae has a bedroom containing various features including toys, books, a bed, and much more.</p>
-<p>Inside her bedroom environment, she can perform many actions such as playing with her toys, reading the books, jumping or sleeping in the bed, etc.</p>
-<p>Depending on if she wants to play or go to bed–the goal set for her in this bedroom (dictated by time of day and me the father) will determine which actions lead to best fufilling that goal.</p>
+<p>My three year old <code>agent</code> Rae has a bedroom containing various features including toys, books, a bed, and much more.</p>
+<p>Inside her bedroom <code>environment</code>, she can perform many <code>actions</code> such as playing with her toys, reading the books, jumping or sleeping in the bed, etc.</p>
+<p>Depending on if she wants to play or go to sleep–the <code>goal</code> set for her in this bedroom will determine which actions lead high <code>rewards</code>.</p>
+<p>For example, if whe wants to go to sleep then climbing into bed and getting tucked into the sheets would produce high <code>reward</code> while getting jacked up on blocks falling would produce low <code>reward</code> (as they rile her up).</p>
 </section>
 <section id="what-can-you-solve-with-reinforcement-learning" class="level2">
 <h2 class="anchored" data-anchor-id="what-can-you-solve-with-reinforcement-learning">What can you solve with reinforcement learning?</h2>
-<p>An agent can be used to solve problems related to…</p>
-<hr>
+<p>Problem statements with a well defined environment and bounded set of actions make can typically be solved using RL methods.</p>
+<p>Some examples of bounded problem statements include: - Robotics: robot appendanges typically have a limited range of motion and must move or interact with physical objects in a finite environment (typically dictated by their sensors) - Games: a game board has a defined state at any given point with a limited set of actions determined by the rules of the game - Cooking: given a well defined set of taste preferences as a goal, an RL agent can combine available ingredients with methods of cooking available to it - Stock market predictions: a market has a defined state at a given point of time and a limited number of ways to interact with it</p>
+<p>Essentially, anything that has a limited set of actions in a defined environment could be jigged into a RL problem if progress towards a goal in that context can be measured.</p>
 </section>
-<section id="how-to-get-value" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-get-value">How to get value</h2>
-<p>The five goals listed above map into five actionable categories:</p>
-<ol type="1">
-<li>take action on the <code>fatherhood</code> and <code>developer</code> actions immediately in your day-to-day living (each article will include examples on how to do this)</li>
-<li>relate my summaries of technologies and the projects I’m building to your own working experience</li>
-<li>challenge me on my fatherhood beliefs if you disagree, and if you find your own beliefs challenged–think deeply about that</li>
-<li>experiment with health changes to a rational degree (we have different bodies, be aware)</li>
-<li>learn from, then emulate, the results of my content creation and marketing strategies</li>
-</ol>
-<p><strong>For dads:</strong></p>
-<p>Success and life fulfillment come as a package. You need to have it all!</p>
-<p>If for example, you don’t agree with the importance of having great physical and spirtual health, then how will your children be healthy?</p>
-<p>You know best for your family.</p>
-<p>Don’t trust homeschooling only because I do it and don’t put your kid into a public school because you don’t know better. Have an intent behind your action.</p>
-<p><strong>For everybody else:</strong></p>
-<p>The fatherhood components to my writing will not always be present and will be designated with a <code>fatherhood</code> tag for those who do not benefit from dad-related content.</p>
-<p>Maybe you have a father present in your life, such as your dad or a relative/friend with children, in which case you can help them out.</p>
-<p>This blog got started because my wife shares lots of relevant dad content with me and I wanted to share my thoughts and beliefs as they develop. Writing solidifes concepts!</p>
-<p>If you only benefit from ML developer content–awesome! Enjoy the content, I will post a lot of it.</p>
 </section>
-<section id="why-sovereign-tech-dad" class="level2">
-<h2 class="anchored" data-anchor-id="why-sovereign-tech-dad">Why “Sovereign” Tech Dad</h2>
-<p>We live in an era of constant attention-seeking products and government welfare states. To state the obvious logic, if you don’t have independence from these systems–you depend on them.</p>
-<p>Independence promotes you to take meaningful risks. Get enough of it and your behavior will change to emphasize self-ownership and rational thought grounded in deterministic goals (goodbye fatalists 👋) instead of consumption as a solution.</p>
-<p>Ideally, you should recognize to some degree the importance of globally integrated economies. What happens in China or Europe impacts North America and vice-versa.</p>
-<p>Use emerging digital solutions to put yourself into a location-independent position. You should live and work because you love it there and you get good tax benefits–not because you can’t feed your family if you move 40 miles.</p>
-<p>I want you to benefit from changes on the global scale. Nationalism only works when your side wins, so don’t pit yourself against the rally when you could instead gain from it.</p>
+<section id="additional-components-of-an-rl-algorithm" class="level1">
+<h1>Additional components of an RL algorithm</h1>
+<p>Now that we know the basics, we must capture some additional nuances required to effectively communicate to an algorithm what it must accomplish.</p>
+<section id="how-an-rl-agent-knows-which-actions-to-take" class="level2">
+<h2 class="anchored" data-anchor-id="how-an-rl-agent-knows-which-actions-to-take">How an RL agent knows which actions to take</h2>
+<p>An <code>environment</code> can be used in many different ways depending on the <code>goal</code> an <code>agent</code> has at the time (imagine all the ways you can use your kitchent).</p>
+<p>The <code>policy</code> determines which <code>actions</code> lead to the best outcome by mapping all <code>actions</code> possible, given the state of the <code>environment</code>, to a known <code>reward</code> value.</p>
+<p>For example, an agent such as Rae operating in her bedroom will have seperate <code>policies</code> when playing vs going to sleep. Her playtime <code>policy</code> will put rewards on actions related to her toys while her sleep <code>policy</code> will place a reward on actions that calm her down.</p>
 </section>
-<section id="final-thoughts-and-a-call-to-action" class="level2">
-<h2 class="anchored" data-anchor-id="final-thoughts-and-a-call-to-action">Final thoughts and a call to action</h2>
-<p>Pick the parts of the blog relevant to you.</p>
-<p>Build valuable products, learn everyday, treat your family well, be healthy, and make money in a way that leads to independence.</p>
-<p>I want to hear about your success! DM me or tweet. I would love nothing more then to show case the work and achievements of others!</p>
+<section id="actions-have-results" class="level2">
+<h2 class="anchored" data-anchor-id="actions-have-results">Actions have results</h2>
+<p>After taking an <code>action</code> in its <code>environment</code>, the <code>agent</code> will measure how much progress it made towards its <code>goal</code>.</p>
+<p>The amount of progess made takes the form of a singular number known as the <code>reward signal</code>. RL agents exist to find the path to maximum <code>reward</code>.</p>
+<p>RL agents will sometimes use the resulting <code>reward</code> to alter the <code>policy</code> mappings.</p>
+<p>If Rae finds that playing with a toy in a particular way was especially fun when using her playtime <code>policy</code>, she may value that <code>action</code> more next she plays.</p>
+</section>
+<section id="rewards-have-both-an-immedate-and-long-term-payoff" class="level2">
+<h2 class="anchored" data-anchor-id="rewards-have-both-an-immedate-and-long-term-payoff">Rewards have both an immedate and long term payoff</h2>
+<p>How do RL agents handle differed rewards? If for example I offered you $1,000 today or $10,000 dollars tomorrow–which one leads to the most long term <code>reward</code>?</p>
+<p>The <code>value function</code> bakes in discounted future rewards in conjunction with the immedate rewards to better represent which actions lead to the best long term outcome.</p>
+<p>RL agents will always attempt to find the optimal <code>policy</code> that leads to optimal <code>rewards</code>.</p>
+<p>Coming back to Rae’s playtime <code>policy</code>, taking the time to slowly build up a large tower of blocks might not be that fun until the last piece gets put into place–upon which a massive <code>reward</code> spike hits and she has the most fun possible.</p>
+<p>Dimming the lights and reading stories during her sleeping <code>policy</code> might not immedately lead to sleep, as opposed to forcing her into bed, but they put her into a tired state that greatly increases the chances of the sleep <code>action</code> occuring.</p>
+<p><strong>An effective <code>value function</code> represents effective estimation of value–the single most important component to an RL agent–as this leads to accurate mappings of <code>actions</code> to <code>reward</code>.</strong></p>
+</section>
+<section id="planning-for-future-actions" class="level2">
+<h2 class="anchored" data-anchor-id="planning-for-future-actions">Planning for future actions</h2>
+<p>Sometimes an RL agent will have access to an <code>environment</code> <code>model</code> that estimates the results of an <code>action</code>.</p>
+<p>A <code>model</code> may not always be available but can be particularly useful for games, or simple physics <code>environments</code>, in which clear causation exists.</p>
+<p>When I’m teaching Rae about physical phenomona such as the water cycle, I will often employ a <code>model</code> that includes a temperature scale and the states of water for experimentation.</p>
+</section>
+<section id="the-difference-between-reinforcment-learning-supervised-learning-and-unsupervised-learning" class="level2">
+<h2 class="anchored" data-anchor-id="the-difference-between-reinforcment-learning-supervised-learning-and-unsupervised-learning">The difference between reinforcment learning, supervised learning, and unsupervised learning</h2>
+<p>Supervised learning typically means we supply the algorithm with some form of training dataset that we have vetted as correct. For example, a computer vision model will be trained on pictures with human generated lables specifying what each object in the picture represents.</p>
+<p>Unsupervised learning removes the human verified data and substitues it with a method to find hidden correlations and trends to create machine generated training data.</p>
+<p>Unlike these traditional machine learning (ML) algorithms, RL algorithms do not utilize a training datset. Instead they attempt to maximize reward through repeated exploration and exploitation.</p>
+<section id="rl-can-be-combined-with-other-ml-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="rl-can-be-combined-with-other-ml-techniques">RL can be combined with other ML techniques</h3>
+<p>RL algorithms can utilize techniques found in un/supervised learning, and can also benefit from the introduction of sub-problems, but fundamentally does not require them.</p>
+<p>I think of RL algorithms as a way to imitate the learning processes used by humans, and other animals, and often mimics known nuerological phenomoman observed in the biology fields.</p>
+<section id="deep-reinforcment-learning-explained" class="level4">
+<h4 class="anchored" data-anchor-id="deep-reinforcment-learning-explained">Deep reinforcment learning explained</h4>
+<p>Use a deep neural network for your <code>policy</code> and you have deep RL.</p>
+<p>TODO - Finish</p>
 
 
+</section>
+</section>
 </section>
 </section>
 
 </main> <!-- /main -->
+<div>
+    <hr>
+    
+    <h3 class="anchored"> Stay in touch </h3>
+    
+    <p> If you enjoyed this post, then don't miss out on any future posts by subscribing to my email newsletter. </p>
+    
+    <iframe id="beehiiv-form" src="https://embeds.beehiiv.com/9232d2a2-6e85-4beb-b8ed-1de94e9e4f01?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent; height: 55px;"></iframe>
+    
+    
+    <h3> Support my work with a coffee </h3>
+    
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="rappa753" data-color="#06436e" data-emoji="☕" data-font="Lato" data-text="Support me" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" data-height="40px"></script>
+    
+    <h3> Share </h3>
+    
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-hashtags="#rstats" data-show-count="false">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h3 class="anchored" data-anchor-id="a-better-action-value-method">A better action-value method<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#a-better-action-value-method" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+    <hr>
+</div>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

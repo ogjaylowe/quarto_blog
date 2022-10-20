@@ -77,3 +77,8 @@ Cash angle?
 - the soverign community
 
 - the success and achievement of others in my community!
+
+
+
+
+blog creation notes: https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html#first-simple-changes

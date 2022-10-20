@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "The ogjaylowe blog"
+  title: "Jay Lowe's Blog"
   navbar:
     right:
       - about.qmd
@@ -10,12 +10,15 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+  favicon: logo.png
+  twitter-card: true
+  site-url: https://example.com
 format:
   html:
     theme: 
-      light: journal
+      light: materia
       dark: slate
     css: styles.css
-
+    include-after-body: ./footer.html
 
 
