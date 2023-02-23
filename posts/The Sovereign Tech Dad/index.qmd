@@ -1,7 +1,7 @@
 ---
 title: "The Sovereign Tech Dad"
 author: "Jay Lowe"
-date: "2022-10-08"
+date: "2023-01-01"
 categories: [fatherhood]
 image: "image.jpg"
 format:
@@ -62,7 +62,9 @@ If you only benefit from ML developer content--awesome! Enjoy the content, I wil
 
 We live in an era of constant attention-seeking products and government welfare states. To state the obvious logic, if you don't have independence from these systems--you depend on them.
 
-Independence promotes you to take meaningful risks. Get enough of it and your behavior will change to emphasize self-ownership and rational thought grounded in deterministic goals (goodbye fatalists 👋) instead of consumption as a solution.
+Independence enables you to take meaningful risks. If you have resources such as knowledge and good physical health, you can overcome greater challenges that lead to greater reward.
+
+Get enough of independence and your behavior will change to emphasize self-ownership and rational thought grounded in deterministic goals (goodbye fatalists 👋) instead of consumption as a solution.
 
 Ideally, you should recognize to some degree the importance of globally integrated economies. What happens in China or Europe impacts North America and vice-versa.
 

@@ -6,13 +6,8 @@ website:
   navbar:
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
   favicon: logo.png
-  twitter-card: true
-  site-url: https://example.com
+  site-url: https://ogjaylowe.com
 format:
   html:
     theme: materia

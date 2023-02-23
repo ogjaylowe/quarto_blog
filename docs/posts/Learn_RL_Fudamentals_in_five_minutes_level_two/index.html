@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jay Lowe">
+<meta name="dcterms.date" content="2023-01-14">
+
+<title>Jay Lowe’s Blog - Learn RL Fundamentals in Five Minutes (Level 2)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jay Lowe’s Blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Learn RL Fundamentals in Five Minutes (Level 2)</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">RL</div>
+                <div class="quarto-category">Beginner</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jay Lowe </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 14, 2023</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="article-summary" class="level5">
+<h5 class="anchored" data-anchor-id="article-summary">Article Summary</h5>
+<blockquote class="blockquote">
+<p>Learn how a reinforcement learning (RF) algorithm uses <code>policy</code> and <code>value functions</code> to balance short vs long term <code>rewards</code>.</p>
+</blockquote>
+<p>New to the blog? Start at <a href="../../posts/Learn_RL_Fudamentals_in_five_minutes_level_one/index.html">Learn RL Fundamentals in Five Minutes Level 1</a>.</p>
+</section>
+<section id="additional-components-of-an-rl-algorithm" class="level1">
+<h1>Additional components of an RL algorithm</h1>
+<p>Now that we know the basics, we must capture some additional nuances required to effectively communicate to an algorithm what it must accomplish.</p>
+<section id="how-an-rl-agent-knows-which-actions-to-take" class="level2">
+<h2 class="anchored" data-anchor-id="how-an-rl-agent-knows-which-actions-to-take">How an RL agent knows which actions to take</h2>
+<p>An <code>environment</code> can be used in many different ways depending on the <code>goal</code> an <code>agent</code> has at the time (imagine all the ways you can use your kitchent).</p>
+<p>The <code>policy</code> determines which <code>actions</code> lead to the best outcome by mapping all <code>actions</code> possible, given the state of the <code>environment</code>, to a known <code>reward</code> value.</p>
+<p>For example, an agent such as Rae operating in her bedroom will have seperate <code>policies</code> when playing vs going to sleep. Her playtime <code>policy</code> will put rewards on actions related to her toys while her sleep <code>policy</code> will place a reward on actions that calm her down.</p>
+</section>
+<section id="actions-have-results" class="level2">
+<h2 class="anchored" data-anchor-id="actions-have-results">Actions have results</h2>
+<p>After taking an <code>action</code> in its <code>environment</code>, the <code>agent</code> will measure how much progress it made towards its <code>goal</code>.</p>
+<p>The amount of progess made takes the form of a singular number known as the <code>reward signal</code>. RL agents exist to find the path to maximum <code>reward</code>.</p>
+<p>RL agents will sometimes use the resulting <code>reward</code> to alter the <code>policy</code> mappings.</p>
+<p>If Rae finds that playing with a toy in a particular way was especially fun when using her playtime <code>policy</code>, she may value that <code>action</code> more next she plays.</p>
+</section>
+<section id="rewards-have-both-an-immedate-and-long-term-payoff" class="level2">
+<h2 class="anchored" data-anchor-id="rewards-have-both-an-immedate-and-long-term-payoff">Rewards have both an immedate and long term payoff</h2>
+<p>How do RL agents handle differed rewards? If for example I offered you $1,000 today or $10,000 dollars tomorrow–which one leads to the most long term <code>reward</code>?</p>
+<p>The <code>value function</code> bakes in discounted future rewards in conjunction with the immedate rewards to better represent which actions lead to the best long term outcome.</p>
+<p>RL agents will always attempt to find the optimal <code>policy</code> that leads to optimal <code>rewards</code>.</p>
+<p>Coming back to Rae’s playtime <code>policy</code>, taking the time to slowly build up a large tower of blocks might not be that fun until the last piece gets put into place–upon which a massive <code>reward</code> spike hits and she has the most fun possible.</p>
+<p>Dimming the lights and reading stories during her sleeping <code>policy</code> might not immedately lead to sleep, as opposed to forcing her into bed, but they put her into a tired state that greatly increases the chances of the sleep <code>action</code> occuring.</p>
+<p><strong>An effective <code>value function</code> represents effective estimation of value–the single most important component to an RL agent–as this leads to accurate mappings of <code>actions</code> to <code>reward</code>.</strong></p>
+</section>
+<section id="planning-for-future-actions" class="level2">
+<h2 class="anchored" data-anchor-id="planning-for-future-actions">Planning for future actions</h2>
+<p>Sometimes an RL agent will have access to an <code>environment</code> <code>model</code> that estimates the results of an <code>action</code>.</p>
+<p>A <code>model</code> may not always be available but can be particularly useful for games, or simple physics <code>environments</code>, in which clear causation exists.</p>
+<p>When I’m teaching Rae about physical phenomona such as the water cycle, I will often employ a <code>model</code> that includes a temperature scale and the states of water for experimentation.</p>
+</section>
+<section id="the-difference-between-reinforcment-learning-supervised-learning-and-unsupervised-learning" class="level2">
+<h2 class="anchored" data-anchor-id="the-difference-between-reinforcment-learning-supervised-learning-and-unsupervised-learning">The difference between reinforcment learning, supervised learning, and unsupervised learning</h2>
+<p>Supervised learning typically means we supply the algorithm with some form of training dataset that we have vetted as correct. For example, a computer vision model will be trained on pictures with human generated lables specifying what each object in the picture represents.</p>
+<p>Unsupervised learning removes the human verified data and substitues it with a method to find hidden correlations and trends to create machine generated training data.</p>
+<p>Unlike these traditional machine learning (ML) algorithms, RL algorithms do not utilize a training datset. Instead they attempt to maximize reward through repeated exploration and exploitation.</p>
+<section id="rl-can-be-combined-with-other-ml-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="rl-can-be-combined-with-other-ml-techniques">RL can be combined with other ML techniques</h3>
+<p>RL algorithms can utilize techniques found in un/supervised learning, and can also benefit from the introduction of sub-problems, but fundamentally does not require them.</p>
+<p>I think of RL algorithms as a way to imitate the learning processes used by humans, and other animals, and often mimics known nuerological phenomoman observed in the biology fields.</p>
+<section id="deep-reinforcment-learning-explained" class="level4">
+<h4 class="anchored" data-anchor-id="deep-reinforcment-learning-explained">Deep reinforcment learning explained</h4>
+<p>Use a deep neural network for your <code>policy</code> and you have deep RL!</p>
+</section>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Establishing the proper <code>policy</code> and <code>value functions</code> provides context for <code>reward</code>.</p>
+<p><code>Rewards</code> can get complex, but finding the right balance of short and long term <code>reward</code> structures leads to the highest performing agents.</p>
+<p>Test yourself with the following questions: - “When should algorithms have a premium on short term rewards vs long term rewards” - “What <code>enviroment</code> factors should an engineer consider when creating dynamic value functions”</p>
+<p>Tweet your answer to me at <a href="https://twitter.com/ogjaylowe"><span class="citation" data-cites="ogjaylowe">@ogjaylowe</span></a> so we can have a chat about it! Would love to discuss.</p>
+</section>
+<section id="what-to-read-next" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-read-next">What to read next</h2>
+<p>Ready to start coding?</p>
+<p>Up next read about <a href="../../posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html">creating a simple bandit</a>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<div>
+    <hr>
+    
+    <h3 class="anchored"> Stay in touch </h3>
+
+    <ul>
+        <li>email me at <a href="mailto:ogjaylowe@gmail.com">ogjaylowe@gmail.com</a></li>
+        <li>follow and tweet at me on <a href="https://twitter.com/ogjaylowe">Twitter (@ogjaylowe)</a></li>
+        <li>follow and DM at me on <a href="https://www.linkedin.com/in/jay-lowe-a21075163/">LinkedIn</a></li>
+    </ul>
+
+    <hr>
+</div>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

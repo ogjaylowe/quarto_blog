@@ -1,0 +1,60 @@
+---
+title: "Learn RL Fundamentals in Five Minutes (Level 1)"
+author: "Jay Lowe"
+date: "2023-01-07"
+categories: ["RL", "Beginner"]
+image: "rl_agent_level_1.jpeg"
+format:
+  html:
+    code-fold: false
+    smooth-scroll: true
+jupyter: python3
+---
+
+##### Article Summary
+
+> Learn all the reinforcement learning (RL) fundamental concepts and terminology such as `reward` and `value function` in five minutes.
+
+To help us better understand RL, I will be pairing technical writing with a simple analogy comparing an RL algorithm to that of a three year old.
+
+My daughter was three at the time of this writing and it was fun explaining RL concepts to my non-technical wife as the kid jumps around and yells, so hopefully it helps you as well.
+
+# Core concepts
+
+Given an `environment` and a set of `actions` that can be performed in that environment, an RL algorithm learns how to maximize `reward` within the context of a measurable `goal`. 
+
+Hearby, the RL algorithm performing actions shall be known as the `agent`.
+
+## Meet the agent
+
+My three year old `agent` Rae has a bedroom containing various features including toys, books, a bed, and much more.
+
+Inside her bedroom `environment`, she can perform many `actions` such as playing with her toys, reading the books, jumping or sleeping in the bed, etc.
+
+Depending on if she wants to play or go to sleep--the `goal` set for her in this bedroom will determine which actions lead high `rewards`. 
+
+For example, if whe wants to go to sleep then climbing into bed and getting tucked into the sheets would produce high `reward` while violently jumping on the bed would produce low `reward` (as `goal` == going to bed). If she wanted to play, which would probably be the case without intervention, then jumping on the bed would produce a high `reward`. 
+
+## What can you solve with reinforcement learning?
+
+Problem statements with a well defined environment and bounded set of actions can typically be solved using RL methods.
+
+Some examples of bounded problem statements include:
+- Robotics: robot appendanges typically have a limited range of motion and must move or interact with physical objects in a finite environment (typically dictated by their sensors)
+- Games: a game board has a defined state at any given point with a limited set of actions determined by the rules of the game
+- Cooking: given a well defined set of taste preferences as a goal, an RL agent can combine available ingredients with methods of cooking available to it 
+- Stock market predictions: a market has a defined state at a given point of time and a limited number of ways to interact with it
+
+Essentially, anything that has a limited set of actions in a defined environment could be jigged into a RL problem if progress towards a goal in that context can be measured.
+
+## Conclusion
+
+Test yourself with the following questions:
+- "Can everything truly be solved with by RL? If yes, list out some situations that would be impossible for an RL agent to work in."
+- "Define an `environment`, set of `actions`, an achevialbe `goal` that can be reached through those `actions`, and a relevant `reward` system to measure progress on that goal."
+
+Tweet your answer to me at [@ogjaylowe](https://twitter.com/ogjaylowe) so we can have a chat about it! Would love to discuss.
+
+## What to read next
+
+Got a hang for the fundamentals of RL and looking for more to read? Check out my post on [additional complexities and components of an RL algorithm](../Learn_RL_Fudamentals_in_five_minutes_level_two/index.qmd) , or if you want to start coding, read about [creating a simple bandit](../Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.qmd).

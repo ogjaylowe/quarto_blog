@@ -1,9 +1,9 @@
 ---
 title: "Creating Simple N-Arm Bandits for RL Agents"
 author: "Jay Lowe"
-date: "2022-19-08"
+date: "2023-02-9"
 categories: ["RL", "Code", "Bandit"]
-image: "image.jpg"
+image: "one_armed_bandit.jpg"
 format:
   html:
     code-fold: false
@@ -112,7 +112,7 @@ plt.title('Initial Bandit Arm Ground Truth Values with Sampling Applied')
 plt.show()
 ```
 
-For each additional bandit arm we add, the same process will occur. Check out a 15 arm bandit, with twice the standard deviation, that as 2000 total action "time steps".
+For each additional bandit arm we add, the same process will occur. Check out a 15 arm bandit, with twice the standard deviation, that has 2000 total action "time steps".
 
 ```{python}
 # updated bandit values
@@ -143,3 +143,5 @@ The wider range of values to sample from and increased number of arms increase t
 # Next up
 
 Now that we know how to create a simple n-armed bandit, we need to build an RL agent capable of maximizing reward during interactions.
+
+Link will be updated here when complete!

@@ -1,0 +1,100 @@
+---
+title: "Learn RL Fundamentals in Five Minutes (Level 2)"
+author: "Jay Lowe"
+date: "2023-01-14"
+categories: ["RL", "Beginner"]
+image: "rl_agent_level2.jpeg"
+format:
+  html:
+    code-fold: false
+    smooth-scroll: true
+jupyter: python3
+---
+
+##### Article Summary
+
+> Learn how a reinforcement learning (RF) algorithm uses `policy` and `value functions` to balance short vs long term `rewards`.
+
+New to the blog? Start at [Learn RL Fundamentals in Five Minutes Level 1](../Learn_RL_Fudamentals_in_five_minutes_level_one/index.qmd).
+
+# Additional components of an RL algorithm
+
+Now that we know the basics, we must capture some additional nuances required to effectively communicate to an algorithm what it must accomplish.
+
+## How an RL agent knows which actions to take
+
+An `environment` can be used in many different ways depending on the `goal` an `agent` has at the time (imagine all the ways you can use your kitchent).
+
+The `policy` determines which `actions` lead to the best outcome by mapping all `actions` possible, given the state of the `environment`, to a known `reward` value.
+
+For example, an agent such as Rae operating in her bedroom will have seperate `policies` when playing vs going to sleep. Her playtime `policy` will put rewards on actions related to her toys while her sleep `policy` will place a reward on actions that calm her down.
+
+## Actions have results
+
+After taking an `action` in its `environment`, the `agent` will measure how much progress it made towards its `goal`.
+
+The amount of progess made takes the form of a singular number known as the `reward signal`. RL agents exist to find the path to maximum `reward`.
+
+RL agents will sometimes use the resulting `reward` to alter the `policy` mappings.
+
+If Rae finds that playing with a toy in a particular way was especially fun when using her playtime `policy`, she may value that `action` more next she plays.
+
+## Rewards have both an immedate and long term payoff
+
+How do RL agents handle differed rewards? If for example I offered you $1,000 today or $10,000 dollars tomorrow--which one leads to the most long term `reward`?
+
+The `value function` bakes in discounted future rewards in conjunction with the immedate rewards to better represent which actions lead to the best long term outcome.
+
+RL agents will always attempt to find the optimal `policy` that leads to optimal `rewards`.
+
+Coming back to Rae's playtime `policy`, taking the time to slowly build up a large tower of blocks might not be that fun until the last piece gets put into place--upon which a massive `reward` spike hits and she has the most fun possible.
+
+Dimming the lights and reading stories during her sleeping `policy` might not immedately lead to sleep, as opposed to forcing her into bed, but they put her into a tired state that greatly increases the chances of the sleep `action` occuring.
+
+**An effective `value function` represents effective estimation of value--the single most important component to an RL agent--as this leads to accurate mappings of `actions` to `reward`.**
+
+## Planning for future actions
+
+Sometimes an RL agent will have access to an `environment` `model` that estimates the results of an `action`.
+
+A `model` may not always be available but can be particularly useful for games, or simple physics `environments`, in which clear causation exists.
+
+When I'm teaching Rae about physical phenomona such as the water cycle, I will often employ a `model` that includes a temperature scale and the states of water for experimentation.
+
+## The difference between reinforcment learning, supervised learning, and unsupervised learning
+
+Supervised learning typically means we supply the algorithm with some form of training dataset that we have vetted as correct. For example, a computer vision model will be trained on pictures with human generated lables specifying what each object in the picture represents.
+
+Unsupervised learning removes the human verified data and substitues it with a method to find hidden correlations and trends to create machine generated training data.
+
+Unlike these traditional machine learning (ML) algorithms, RL algorithms do not utilize a training datset. Instead they attempt to maximize reward through repeated exploration and exploitation.
+
+### RL can be combined with other ML techniques
+
+RL algorithms can utilize techniques found in un/supervised learning, and can also benefit from the introduction of sub-problems, but fundamentally does not require them.
+
+I think of RL algorithms as a way to imitate the learning processes used by humans, and other animals, and often mimics known nuerological phenomoman observed in the biology fields.
+
+
+#### Deep reinforcment learning explained
+
+Use a deep neural network for your `policy` and you have deep RL!
+
+
+## Conclusion
+
+Establishing the proper `policy` and `value functions` provides context for `reward`. 
+
+`Rewards` can get complex, but finding the right balance of short and long term `reward` structures leads to the highest performing agents.
+
+Test yourself with the following questions:
+- "When should algorithms have a premium on short term rewards vs long term rewards"
+- "What `enviroment` factors should an engineer consider when creating dynamic value functions"
+
+Tweet your answer to me at [@ogjaylowe](https://twitter.com/ogjaylowe) so we can have a chat about it! Would love to discuss.
+
+## What to read next
+
+Ready to start coding? 
+
+Up next read about [creating a simple bandit](../Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.qmd).

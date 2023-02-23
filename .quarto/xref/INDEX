@@ -31,5 +31,23 @@
   },
   "posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.qmd": {
     "index.html": "f091b5a6"
+  },
+  "posts/Learn_RL_Fudamentals_in_five_minutes_level_one/index.qmd": {
+    "index.html": "f264e495"
+  },
+  "posts/Learn_RL_Fudamentals_in_five_minutes_level_two/index.qmd": {
+    "index.html": "ed851fc9"
+  },
+  "zzz_templates/template/index.qmd": {
+    "index.html": "40b12a6f"
+  },
+  "zzz_templates/welcome/index.qmd": {
+    "index.html": "a123cca3"
+  },
+  "drafts/the_big_one.qmd": {
+    "the_big_one.html": "7a678aeb"
+  },
+  "drafts/Bandit_1/index.qmd": {
+    "index.html": "4a22bcce"
   }
 }

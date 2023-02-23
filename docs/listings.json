@@ -3,11 +3,9 @@
     "listing": "/index.html",
     "items": [
       "/posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html",
-      "/posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html",
-      "/posts/Bandit_1/index.html",
-      "/posts/The Sovereign Tech Dad/index.html",
-      "/posts/template/index.html",
-      "/posts/welcome/index.html"
+      "/posts/Learn_RL_Fudamentals_in_five_minutes_level_two/index.html",
+      "/posts/Learn_RL_Fudamentals_in_five_minutes_level_one/index.html",
+      "/posts/The Sovereign Tech Dad/index.html"
     ]
   }
 ]

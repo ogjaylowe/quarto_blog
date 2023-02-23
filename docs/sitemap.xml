@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/posts/Learn_RL_Fundamentals_and_Vocab_in_Five_Minutes/index.html</loc>
-    <lastmod>2022-10-20T22:01:09.879Z</lastmod>
+    <loc>https://ogjaylowe.com/index.html</loc>
+    <lastmod>2023-02-23T04:08:18.871Z</lastmod>
   </url>
   <url>
-    <loc>https://example.com/index.html</loc>
-    <lastmod>2022-10-20T22:08:31.677Z</lastmod>
+    <loc>https://ogjaylowe.com/posts/Learn_RL_Fudamentals_in_five_minutes_level_one/index.html</loc>
+    <lastmod>2023-02-23T04:08:18.044Z</lastmod>
   </url>
   <url>
-    <loc>https://example.com/posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html</loc>
-    <lastmod>2022-10-20T22:04:21.520Z</lastmod>
+    <loc>https://ogjaylowe.com/posts/Learn_RL_Fudamentals_in_five_minutes_level_two/index.html</loc>
+    <lastmod>2023-02-23T02:25:57.933Z</lastmod>
   </url>
   <url>
-    <loc>https://example.com/ideas.html</loc>
-    <lastmod>2022-10-20T22:01:10.219Z</lastmod>
+    <loc>https://ogjaylowe.com/posts/Bandit_1/index.html</loc>
+    <lastmod>2023-02-23T01:29:27.564Z</lastmod>
   </url>
   <url>
-    <loc>https://example.com/about.html</loc>
-    <lastmod>2022-10-20T22:04:13.063Z</lastmod>
+    <loc>https://ogjaylowe.com/posts/Creating_Simple_N-Arm_Bandits_for_RL_Agents/index.html</loc>
+    <lastmod>2023-02-23T04:08:18.511Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ogjaylowe.com/about.html</loc>
+    <lastmod>2023-02-23T01:29:28.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ogjaylowe.com/zzz_templates/template/index.html</loc>
+    <lastmod>2023-02-23T01:29:30.815Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ogjaylowe.com/zzz_templates/welcome/index.html</loc>
+    <lastmod>2023-02-23T01:29:31.133Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ogjaylowe.com/drafts/the_big_one.html</loc>
+    <lastmod>2023-02-23T02:18:50.185Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ogjaylowe.com/drafts/Bandit_1/index.html</loc>
+    <lastmod>2023-02-23T04:08:19.676Z</lastmod>
   </url>
 </urlset>

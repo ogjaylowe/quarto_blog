@@ -1,19 +1,26 @@
 ---
 title: "About"
-image: profile.jpg
+image: headshot6.jpg
 about:
-  template: jolla
+  template: marquee
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/jay-lowe-a21075163/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/ogjaylowe
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/ogjaylowe
 ---
 
-About this blog
+I drive customer growth and expansion while making valuable engineering contributions to the wider customer base. In the last two quarters of 22' I generated ~400k in expansion based new revenue.
+
+As the first member of the Field Engineering team, I have been instrumental in growing the team to four members and establishing the foundation for the wider solutions engineering team.
+
+I lead educating our clients and the community at large by regularly creating educational for various Roboflow channels. 
+
+Through computer vision engineering and customer facing skills, I have made a significant impact on the development and growth of Roboflow and the lives of our customers!
+
+Check out my work on GitHub and LinkedIn, or tweet at me!
