@@ -14,13 +14,14 @@ about:
       text: Github
       href: https://github.com/ogjaylowe
 ---
+Hi and welcome to the ogjaylowe blog! 
 
-I drive customer growth and expansion while making valuable engineering contributions to the wider customer base. In the last two quarters of 22' I generated ~400k in expansion based new revenue.
+I created this as a way to organize and share my learnings with the wider world. Check out my [first post for more details on what I'm aiming to achieve with my writing](./posts/The Sovereign Tech Dad/index.qmd).
 
-As the first member of the Field Engineering team, I have been instrumental in growing the team to four members and establishing the foundation for the wider solutions engineering team.
+As the first member of the [Roboflow](https://roboflow.com/) Field Engineering team, I have been instrumental in growing the team to four members and establishing the foundation for the wider solutions engineering team.
 
-I lead educating our clients and the community at large by regularly creating educational for various Roboflow channels. 
+At work I drive customer growth and expansion while making valuable engineering contributions to the wider customer base. In the last two quarters of 22' I generated ~400k in expansion based new revenue.
 
-Through computer vision engineering and customer facing skills, I have made a significant impact on the development and growth of Roboflow and the lives of our customers!
+Outside of work, I focus on building a great family, training in the gym, and exploring the wider world of AI x market sector intersections. 
 
-Check out my work on GitHub and LinkedIn, or tweet at me!
+Check out my work on [LinkedIn](https://www.linkedin.com/in/) and [GitHub](https://github.com/ogjaylowe), or [tweet at me](https://twitter.com/ogjaylowe!
